@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task3</title>
+    <style>
+        .one{
+            display: flex;
+            justify-content: right;
+        }
+        .two,.three,.four,.five,.six,.seven{
+            display: flex;
+            justify-content: center;
+            padding: 20px 15px 0px 0px;
+            font-weight: bolder;
+        }
+        body{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -11,15 +26,67 @@
         <br>
         <h3>Students daily Attendance Entry Form</h3>
     </center>
-    <section>
+    <section class="one">
         <label for="">Date:</label>
         <input type="date">
     </section>
     <section>
         <form action="get">
-            <label for="">Reg no:</label>
-            <input type="text">
-            <label for="">Password</label>
+            <section class="two">
+                <label for="">Reg no:</label>
+                <input type="text">
+            </section>
+            <section class="three" style="padding-right: 28px;">
+                <label for="">Password:</label>
+                <input type="password">
+            </section>
+            <section class="four" style="padding-left: 15px;">
+                <label for="">Time:</label>
+                <input type="text">
+            </section>
+            <section class="five" style="padding-right: 25px;">
+                <label for="">Time Out:</label>
+                <input type="text" name="" id="">
+            </section>
+            <section class="five" style="padding-left: 45px;">
+                <label for="">Course Details:</label>
+                <input type="checkbox">
+                <label for="">HTML</label>
+                <input type="checkbox" name="" id="">
+                <label for="">CSS</label> 
+                <input type="checkbox" name="" id="">
+                <label for="">Java Script</label>
+                <input type="checkbox" name="" id="">
+                <label for="">PHP</label>    
+            </section>
+            <section class="six" style="padding-left: 160px;">
+                <label for="">Batch Timing:</label>
+                <input type="radio" name="batch" id="">
+                <label for="">10-12</label>
+                <input type="radio" name="batch" id="">
+                <label for="">11-01</label>
+                <input type="radio" name="batch" id="">
+                <label for="">02-04</label>
+                <input type="radio" name="batch" id="">
+                <label for="">04-06</label>
+                <input type="radio" name="batch" id="">
+                <label for="">06-08</label>
+                <input type="radio" name="batch" id="">
+                <label for="">fasttrack</label>
+            </section>
+            <section class="seven">
+                <input type="submit" name="" id="">
+                
+                <input type="reset" name="" id="">
+            </section>
+            <section>
+                <b>Feedback:</b>
+                <br>
+                <textarea name="" id="" cols="30" rows="10">Enter your feedback</textarea><br>
+                <button style=" margin-left: 100px;">
+                    Ok
+                </button>
+            </section>
             
         </form>
     </section>
