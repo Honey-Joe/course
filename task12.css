@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    margin: 5px 0px 5px 250px;
+    box-shadow: 5px 5px 5px black;
+}
+label{
+    font-weight: 900;
+}
+  .one{
+    width :400px;
+    height: 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+  }
+
+div{
+    margin: 5px 0px 5px 0px;
+}
+.reg{
+    width: 400px;
+    height: 30px;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.reg:hover{
+    scale: 1.1;
+    bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 15px #f55f3a; 
+}
+.one:hover{
+    box-shadow: 0 0 30px 15px #f55f3a;
+
+}
