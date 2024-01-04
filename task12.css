@@ -1,14 +1,17 @@
 body{
     padding: 0;
     margin: 0;
+    background-image: linear-gradient(to left, rgb(179, 221, 179),rgb(23, 23, 218) );
 }
 .main{
     width: 500px;
     display: flex;
     justify-content: center;
-    background: transparent;
+    /* background: transparent; */
     margin: 5px 0px 5px 250px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0px 0px 50px 15px black;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 label{
     font-weight: 900;
@@ -23,6 +26,7 @@ label{
 
 div{
     margin: 5px 0px 5px 0px;
+    
 }
 .reg{
     width: 400px;
@@ -38,9 +42,23 @@ div{
     scale: 1.1;
     bottom: 20px;
     cursor: pointer;
-    box-shadow: 0px 0px 30px 15px #f55f3a; 
+    box-shadow: 0px 0px 30px 10px #f55f3a; 
 }
-.one:hover{
-    box-shadow: 0 0 30px 15px #f55f3a;
+.one:hover,.one:active{
+    box-shadow: 0 0 20px 10px #e68c76;
+
+}
+
+select{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#one::placeholder{
+    font-weight: 900;
+    color: black;
 
 }
