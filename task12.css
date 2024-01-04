@@ -2,13 +2,15 @@ body{
     padding: 0;
     margin: 0;
     background-image: linear-gradient(to left, rgb(179, 221, 179),rgb(23, 23, 218) );
+    /* display: flex;
+    justify-content: center; */
 }
 .main{
     width: 500px;
     display: flex;
     justify-content: center;
     /* background: transparent; */
-    margin: 5px 0px 5px 250px;
+     margin: 5px 0px 5px 250px;
     box-shadow: 0px 0px 50px 15px black;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
