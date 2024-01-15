@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .main{
+            display: grid;
+            grid-template-rows: repeat(5,50px);
+            
+        }
+        .head{
+            background-color: red;
+        }
+        .cont1,.cont2{
+            background-color: yellow;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            border: 2px solid white;
+            
+        }
+        .container1,.container2{
+            grid-row: span 3;
+             
+        }
+        .cell1,.cell2,.cell3,.cell4,.cell5,.cell6,.cell7,.cell8,.cell9,.cell10{
+            border: 2px solid white;
+            background-color: blue;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head"> <p>Head</p></div>
+        <div class="cont1">
+            <div class="container1">
+                container1
+            </div>
+            <div class="cell1">cell1</div>
+            <div class="cell2" style="grid-column: span 2;">cell2</div>
+            <div class="cell3">cell3</div>
+            <div class="cell4">cell4</div>
+            <div class="cell5">cell5</div>
+            <div class="cell6">cell6</div>
+            <div class="cell7" style="grid-row: span 2;">cell7</div>
+            <div class="cell8">cell8</div>
+            <div class="cell9">cell9</div>
+            <div class="cell10">cell10</div>
+           
+        </div>
+        <div class="cont2">
+            <div class="container2">
+                container2
+            </div>
+            <div class="cell1" style="grid-row: span 2;">cell1</div>
+            <div class="cell2">cell2</div>
+            <div class="cell3">cell3</div>
+            <div class="cell4">cell4</div>
+            <div class="cell5">cell5</div>
+            <div class="cell6" style="grid-column: span 2;">cell6</div>
+            <div class="cell7" style="grid-column: span 4;">cell7</div>
+        </div>  
+    </div>
+</body>
+</html>
